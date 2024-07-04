@@ -1,0 +1,4 @@
+<configs>
+	<set xpath="/materials/material[@id='Mwood_shapes']/property[@name='Experience']/@value">1000</set>
+	<set xpath="/materials/material[@id='MresourceWood']/property[@name='Experience']/@value">1000</set>
+</configs>
