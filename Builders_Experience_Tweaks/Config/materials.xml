@@ -1,4 +1,20 @@
 <configs>
-	<set xpath="/materials/material[@id='Mwood_shapes']/property[@name='Experience']/@value">1000</set>
-	<set xpath="/materials/material[@id='MresourceWood']/property[@name='Experience']/@value">1000</set>
+	<!-- Values for adjusting block upgrading -->
+	<set xpath="/materials/material[@id='Mwood_shapes']/property[@name='Experience']/@value">.1</set>
+	<set xpath="/materials/material[@id='Mcobblestone_shapes']/property[@name='Experience']/@value">.1</set>
+	<set xpath="/materials/material[@id='Mconcrete_shapes']/property[@name='Experience']/@value">.1</set>
+	<set xpath="/materials/material[@id='Msteel_shapes']/property[@name='Experience']/@value">.1</set>
+	
+	<!-- Values for adjusting material harvesting -->
+	<set xpath="/materials/material[@id='MresourceWood']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MoreMetal']/property[@name='Experience']/@value">1000</set>
+	<set xpath="/materials/material[@id='MresourceClayLump']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MresourceRockSmall']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MresourceCrushedSand']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MresourceCoal']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MoreStone']/property[@name='Experience']/@value">1000</set>
+	<set xpath="/materials/material[@id='MresourceOilShale']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MresourceScrapIron']/property[@name='Experience']/@value">.2</set>
+	<set xpath="/materials/material[@id='MresourceScrapLeadSmall']/property[@name='Experience']/@value">.2</set>
+
 </configs>
